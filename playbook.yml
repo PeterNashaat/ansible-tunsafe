@@ -38,6 +38,8 @@
       - git
       - clang-6.0
       - make
+      - openresolv
+      - wireguard
 
   - name: Install Required Packages with UFW
     become: true
@@ -50,6 +52,8 @@
       - ufw
       - clang-6.0
       - make
+      - openresolv
+      - wireguard
 
   - name: Clone TunSafe git
     become: true
