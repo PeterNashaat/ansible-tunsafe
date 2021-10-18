@@ -21,7 +21,7 @@ tcp=443
 dns=1.1.1.1,2606:4700:4700::1001
 
 #Do you, or would you like to, use Uncomplicated Firewall (UFW)?
-ufw=true
+ufw=false
 
 ############################################
 #Force Python 3 Interpreter (DO NOT CHANGE)
